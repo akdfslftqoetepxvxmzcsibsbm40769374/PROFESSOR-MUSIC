@@ -30,6 +30,6 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], web_app=WebAppInfo(url="https://telegram.tools/session-string-generator#telethon,user"))],
+            InlineKeyboardButton(text=_["S_B_5"], web_app=WebAppInfo(url="https://sourabh.professor.org.in"))],
     ]
     return buttons
