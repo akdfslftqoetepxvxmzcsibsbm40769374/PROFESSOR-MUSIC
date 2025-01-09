@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@Heroku_Admin")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@PRF_100RABH")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "DIVYANSHI_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "@DivyanshiXMusicBot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹ šυкσση ✘ ɱυšιᴄ 🫧 ˼")
+BOT_NAME = getenv("BOT_NAME", "˹ ᴅɪᴠʏʌηsʜɪ ꭙ ᴍᴜsɪᴄ ˼ ♪")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "PROFESSOR_ASS")
-EVALOP = list(map(int, getenv("EVALOP", "6469162895").split()))
+EVALOP = list(map(int, getenv("EVALOP", "7400823450").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002107213547"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001951276489"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7122997452"))
+OWNER_ID = int(getenv("OWNER_ID", "7400823450"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Heroku")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PROFESSORxNETWORK")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/professor_modz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cvDG1UXzslA0MTJl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
