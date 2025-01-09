@@ -1,6 +1,6 @@
 import math
 from config import SUPPORT_CHAT, OWNER_USERNAME
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton, WebAppInfo
 from PROFESSOR import app
 import config
 from PROFESSOR.utils.formatters import time_to_seconds
@@ -67,7 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
          InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID),
          InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text="• ᴠɪᴇᴡ ᴏᴜʀ sᴛᴏʀʏ •", web_app=WebAppInfo(url="https://sourabh.professor.org.in/stories"))],
     ]
     return buttons
 
